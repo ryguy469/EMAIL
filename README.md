@@ -1,10 +1,8 @@
-# python-getting-started
+# freestyle project
 
-A barebones Python app, which can easily be deployed to Heroku.
 
 The goal of this app is to send a daily weather e-mail to a designated address
 
-This application supports the [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) article - check it out.
 
 ## Running Locally
 
