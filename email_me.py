@@ -51,7 +51,15 @@ weather_nj = results_nj["item"]
 
 #COMPILE REQUEST PARAMETERS
 
+weather_title_1 = weather["title"]
+weather_temp_1 = weather["condition"]["temp"]
+weather_text_1 = weather["condition"]["text"]
+weather_title_2 = weather_nj["title"]
+weather_temp_2 = weather_nj["condition"]["temp"]
+weather_text_2 = weather_nj["condition"]["text"]
+
 email_message = weather["title"] + "\n" + weather["condition"]["temp"] + "\n" + weather["condition"]["text"] + "\n" + weather_nj["title"] + "\n" + weather_nj["condition"]["temp"] + "\n" + weather_nj["condition"]["text"]
+
 
 subject = "Here's today's weather forecast"
 
